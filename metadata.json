@@ -1,0 +1,6 @@
+{
+  "name": "Fashion Studio — New Delhi Photography Studio",
+  "description": "High-fashion editorial, portrait, model portfolio, product, and event photography studio in Malviya Nagar, New Delhi with 100+ 5-star Google reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
