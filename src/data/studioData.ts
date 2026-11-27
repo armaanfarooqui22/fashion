@@ -1,3 +1,15 @@
+import fashionCoutureImg from '../assets/images/fashion_editorial_couture_1795762296115.jpg';
+import fashionMenswearImg from '../assets/images/fashion_streetwear_campaign_1795762260100.jpg';
+import modelCompCardImg from '../assets/images/model_portfolio_compcard_1795762261157.jpg';
+import portraitMonochromeImg from '../assets/images/portrait_editorial_executive_1795762298231.jpg';
+import modelFullBodyImg from '../assets/images/model_portfolio_fullbody_1795762262842.jpg';
+import portraitArtistImg from '../assets/images/portrait_creative_artist_1795762263245.jpg';
+import productFragranceImg from '../assets/images/product_luxury_fragrance_1795762266519.jpg';
+import productFootwearImg from '../assets/images/product_footwear_editorial_1795762266730.jpg';
+import eventRunwayImg from '../assets/images/event_runway_backstage_1795762265914.jpg';
+import studioCycloramaImg from '../assets/images/studio_space_cyclorama_1795762267010.jpg';
+import studioBtsImg from '../assets/images/studio_bts_lighting_1795762267685.jpg';
+
 export type PortfolioCategory =
   | 'All'
   | 'Fashion'
@@ -75,17 +87,17 @@ export const STUDIO_CONTACT = {
 };
 
 export const IMAGES = {
-  fashionCouture: '/src/assets/images/fashion_editorial_couture_1795762296115.jpg',
-  fashionMenswear: '/src/assets/images/fashion_streetwear_campaign_1795762260100.jpg',
-  modelCompCard: '/src/assets/images/model_portfolio_compcard_1795762261157.jpg',
-  portraitMonochrome: '/src/assets/images/portrait_editorial_executive_1795762298231.jpg',
-  modelFullBody: '/src/assets/images/model_portfolio_fullbody_1795762262842.jpg',
-  portraitArtist: '/src/assets/images/portrait_creative_artist_1795762263245.jpg',
-  productFragrance: '/src/assets/images/product_luxury_fragrance_1795762266519.jpg',
-  productFootwear: '/src/assets/images/product_footwear_editorial_1795762266730.jpg',
-  eventRunway: '/src/assets/images/event_runway_backstage_1795762265914.jpg',
-  studioCyclorama: '/src/assets/images/studio_space_cyclorama_1795762267010.jpg',
-  studioBts: '/src/assets/images/studio_bts_lighting_1795762267685.jpg',
+  fashionCouture: fashionCoutureImg,
+  fashionMenswear: fashionMenswearImg,
+  modelCompCard: modelCompCardImg,
+  portraitMonochrome: portraitMonochromeImg,
+  modelFullBody: modelFullBodyImg,
+  portraitArtist: portraitArtistImg,
+  productFragrance: productFragranceImg,
+  productFootwear: productFootwearImg,
+  eventRunway: eventRunwayImg,
+  studioCyclorama: studioCycloramaImg,
+  studioBts: studioBtsImg,
 };
 
 export const HERO_COLLAGE = [
